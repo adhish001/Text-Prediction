@@ -37,4 +37,4 @@ if st.button("Check"):
     prediction = naivebayes.predict(input_text_transformed)[0]
     prediction_mapping = {0: 'TECH', 1: 'BUSINESS', 2: 'SPORTS', 3: 'ENTERTAINMENT', 4: 'POLITICS'}
     result = prediction_mapping[prediction]
-    st.write(f"Predicted category: {result}")
+    st.write(f"Predicted Label: {result}")
